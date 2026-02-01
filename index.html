@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SussyGenss - Minecraft Server</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SussyGenss - Minecraft Server</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -26,27 +25,28 @@
     <a href="#discord">Discord</a>
 </nav>
 
-<section id="gens">
+<main>
+<section id="gens" class="card">
     <h2>Gens 🔧</h2>
     <p>Nether-themed gens from wood to netherite. Stack, upgrade, dominate.</p>
 </section>
 
-<section id="prison">
+<section id="prison" class="card">
     <h2>Prison ⛓️</h2>
     <p>From low-security to FBI agent. Yes, seriously.</p>
 </section>
 
-<section id="parkour">
+<section id="parkour" class="card">
     <h2>Parkour 🏃</h2>
-    <p>Ladders, slime, rage, repeat.</p>
+    <p>Ladders, slime jumps, rage, repeat.</p>
 </section>
 
-<section id="pvp">
+<section id="pvp" class="card">
     <h2>PvP ⚔️</h2>
     <p>Bedrock arena chaos. Bonk responsibly.</p>
 </section>
 
-<section id="gallery">
+<section id="gallery" class="card">
     <h2>Gallery 📸</h2>
     <div class="gallery">
         <img src="image1.png">
@@ -55,12 +55,12 @@
     </div>
 </section>
 
-<section id="staff">
+<section id="staff" class="card">
     <h2>Staff 🛠️</h2>
     <p>Owners, admins, mods. Some slots open.</p>
 </section>
 
-<section id="rules">
+<section id="rules" class="card">
     <h2>Rules 📜</h2>
     <ul>
         <li>No cheating or exploiting</li>
@@ -70,14 +70,14 @@
     </ul>
 </section>
 
-<section id="faq">
+<section id="faq" class="card">
     <h2>FAQ 🤔</h2>
     <p><strong>IP:</strong> <code>sussyGenss.minefort.com</code></p>
     <p><strong>Version:</strong> 1.21+</p>
 </section>
 
-<!-- DISCORD SECTION NEAR THE END -->
-<section id="discord">
+<!-- DISCORD SECTION -->
+<section id="discord" class="card">
     <h2>Join Our Discord Servers 💬</h2>
 
     <div class="discord-invites">
@@ -87,13 +87,13 @@
     </div>
 
     <h3>Send a Message to Staff 📢</h3>
-
     <div class="webhook-form">
         <input id="username" placeholder="Username (optional)">
         <textarea id="message" rows="5" placeholder="Your message..."></textarea>
         <button onclick="sendWebhook()">Send</button>
     </div>
 </section>
+</main>
 
 <footer>
     © 2025 SussyGenss — All Rights Reserved
