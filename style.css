@@ -1,4 +1,86 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Tahoma, sans-serif;
+    background: #111;
+    color: #eee;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, red, blue);
+    padding: 2rem;
+}
+
+nav {
+    margin: 1.5rem 0;
+}
+
+nav a {
+    margin: 0 0.8rem;
+    color: #0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background: #222;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #0ff;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.discord-invites a {
+    display: inline-block;
+    margin: 0.6rem;
+    padding: 1rem 1.5rem;
+    background: #5865F2;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.webhook-form input,
+.webhook-form textarea {
+    width: 90%;
+    max-width: 500px;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.webhook-form button {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background: #5865F2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #000;
+    padding: 1rem;
+    color: #aaa;
+}
